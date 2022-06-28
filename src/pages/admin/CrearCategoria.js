@@ -138,7 +138,7 @@ export const CrearCategoria = () => {
                     <div className="col-12">
                       <Stack direction="row" spacing={1} alignItems="center">
                         <Button type="submit"variant="contained" color="success" startIcon={<SaveIcon />} >Guardar</Button>
-                        <Button type="button" variant="contained" href="/admin/categorias/consultar"  startIcon={<ArrowBackIosIcon />}>Volver</Button>
+                        <Button type="button" variant="contained" href="/#/admin/categorias/consultar"  startIcon={<ArrowBackIosIcon />}>Volver</Button>
                       </Stack>
                     </div> 
                 </form>                

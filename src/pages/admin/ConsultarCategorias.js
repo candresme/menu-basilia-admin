@@ -129,7 +129,7 @@ export const ConsultarCategorias = () => {
           </div>
         </div>
         <Stack direction="row-reverse">
-          <Fab color="primary" aria-label="add" href="/admin/categorias/crear">
+          <Fab color="primary" aria-label="add" href="/#/admin/categorias/crear">
             <AddIcon />
           </Fab>
         </Stack>
