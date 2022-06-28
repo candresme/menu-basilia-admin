@@ -120,7 +120,7 @@ export const ConsultarProductos = () => {
                                     
                   <td>
                     <Stack direction="row" spacing={1} alignItems="center">
-                      <Link to={`/#/editar/producto/${producto.id}`}>
+                      <Link to={`/editar/producto/${producto.id}`}>
                         <IconButton color="info" aria-label="editar">
                           <EditIcon  />
                         </IconButton> 
