@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import AdminHome from './AdminHome';
 
-//imports react router dom.
-import { useNavigate } from 'react-router-dom';
-
 //Material components
 import TextField from '@mui/material/TextField';
 import Switch from '@mui/material/Switch';
@@ -32,8 +29,6 @@ import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 //SweetAlert imports
 import Swal from 'sweetalert2';
-import withReactContent from 'sweetalert2-react-content';
-const MySwal = withReactContent(Swal);
 
 export const CrearProducto = () => {
 
