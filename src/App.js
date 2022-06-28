@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 //imports react router dom.
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 //Imports pages
 import Admin  from './pages/admin/Admin';
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
 
-      <BrowserRouter>      
+      <HashRouter>      
         <Routes>
           
           <Route exact path="/admin" element={<Admin />} />
@@ -36,7 +36,7 @@ function App() {
           <Route exact path='/editar/producto/:id' element={ <EditarProducto /> } />
 
         </Routes>      
-      </BrowserRouter>
+      </HashRouter>
       
     </div>
   );
