@@ -27,9 +27,11 @@ const HorizontalCard = ({nombre, foto, descripcion, precio, estado}) => {
     
   return (
     <div>
-        <Card className="justify-content-between m-4" sx={{ display: 'flex', height:130 }} onClick={handleShow}>
+        <Card className="m-1" sx={{ display: 'flex', height:150, width:360}} onClick={handleShow} >
+            
             <div className="col-4" style={{backgroundImage:`url(${foto})`, backgroundPosition:'center', backgroundSize:'cover', width:"40%", height:"100%"}}></div>
-            <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+            
+            <Box className="" sx={{ display: 'flex', flexDirection: 'column'}}>
                 
                 <CardContent className="text-start" >
                     <Typography variant="h5" gutterBottom>{nombre}</Typography>                    
@@ -79,7 +81,7 @@ const HorizontalCard = ({nombre, foto, descripcion, precio, estado}) => {
                                                 
                         <div className="row">
                             <div className="lh-1 mb-2" style={{textAlign: 'justify'}}>
-                                <h3 className="text-break" >{descripcion}</h3>
+                                <p className="text-break" >{descripcion}</p>
                                 
                             </div>
                             <Stack className="mb-5" direction="row" spacing={0.5}  >
