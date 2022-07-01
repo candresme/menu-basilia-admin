@@ -7,9 +7,6 @@ import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
 import Modal from '@mui/material/Modal';
 import IconButton from '@mui/material/IconButton';
-import Slide from '@mui/material/Slide';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
 import Button from '@mui/material/Button';
 
 //Material Icons

@@ -9,7 +9,7 @@ const Favoritos = ({productos}) => {
   return (
     <div className="p-3 rounded-5 mt-2 align-items-center">
         <Toolbar />
-        <div className="d-flex flex-wrap">
+        <div className="d-flex flex-wrap justify-content-center">
           {
               productos.map( (producto) => {         
                 if (producto.favorito)

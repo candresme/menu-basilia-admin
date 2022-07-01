@@ -7,7 +7,7 @@ import HorizontalCard from './HorizontalCard';
 const Categorias = ({productos, categorias}) => {    
 
   return (
-    <div>
+    <div className="p-3 rounded-5 mt-2 align-items-center">
         {
             categorias.map((data) =>{
 
@@ -17,7 +17,7 @@ const Categorias = ({productos, categorias}) => {
 
                             <h3 className="text-start m-2" key={data.id}>{data.nombre}</h3>
                             
-                            <div className="d-flex flex-wrap">
+                            <div className="d-flex flex-wrap justify-content-center">
                                 {
                                     productos.map( (producto) => {                  
                                         if(producto.categoria === data.nombre){
