@@ -22,8 +22,8 @@ const Categorias = ({productos, categorias}) => {
                                     productos.map( (producto) => {                  
                                         if(producto.categoria === data.nombre){
                                             return(
-                                                <div className="col mt-2">                                
-                                                    <HorizontalCard nombre={producto.nombre} foto={producto.foto} descripcion={producto.descripcion} precio={producto.precio} estado={producto.estado}/>
+                                                <div className="col" key={producto.id}>                                
+                                                    <HorizontalCard key={producto.id} nombre={producto.nombre} foto={producto.foto} descripcion={producto.descripcion} precio={producto.precio} estado={producto.estado}/>
                                                 </div>
                                             )                    
                                         }

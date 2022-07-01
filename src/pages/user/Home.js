@@ -9,7 +9,7 @@ import Main from '../../layouts/user/Main';
 const Home = () => {
   const [label, setLabel]= useState("menu");
   return (
-    <div>
+    <div className="">
       <NavBar />
       <Toolbar />
       <Main label={label} />

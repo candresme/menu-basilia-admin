@@ -14,7 +14,7 @@ const Favoritos = ({productos}) => {
               productos.map( (producto) => {         
                 if (producto.recomendado)
                 return (
-                  <div className="col mt-2">
+                  <div className="col mt-2" key={producto.id}>
                     <HorizontalCard nombre={producto.nombre} foto={producto.foto} descripcion={producto.descripcion} precio={producto.precio} estado={producto.estado}/>
                   </div>
                 )
