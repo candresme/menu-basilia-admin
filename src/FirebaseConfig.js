@@ -10,14 +10,21 @@ import "firebase/storage"
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDAdN9bkM9ybEyPvIbpVs4_rQCMaZOE8Q8",
-  authDomain: "menu-basilia-5405d.firebaseapp.com",
-  projectId: "menu-basilia-5405d",
-  storageBucket: "menu-basilia-5405d.appspot.com",
-  messagingSenderId: "887215870166",
-  appId: "1:887215870166:web:bf01367816261a2ad1f977",
-  measurementId: "G-R7Z459VGP0"
+
+  apiKey: "AIzaSyAvmNOEx2eKGw_Xm-3dkPYopWQ8n1-JL3g",
+
+  authDomain: "sena-proyecto.firebaseapp.com",
+
+  projectId: "sena-proyecto",
+
+  storageBucket: "sena-proyecto.appspot.com",
+
+  messagingSenderId: "257501147079",
+
+  appId: "1:257501147079:web:38117e500e83a99ef5b3e2"
+
 };
+
 
 
 export const app = initializeApp(firebaseConfig);
